@@ -1,5 +1,5 @@
 ---
-title: 11ty Boilerplate
+title: Homepage
 ---
 
 <!DOCTYPE html>
@@ -10,13 +10,17 @@ title: 11ty Boilerplate
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
+
 <body>
-  <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
-    </ul>
-  </nav>
-    {{ content }}
+  <main>
+    {{ content }} 
+  </main>
+  <footer>
+  <ul style="list-style-type:none;">
+    <li>Email: <a href="mailto:playingcardsinfo@gmail.com"> Playingcardsinfo@gmail.com</a></li>
+    <li>Instagram: <a href="https://instagram.com/Planetaryplayingcards">Planetary Playing Cards </a></li>
+  </ul>
+  <h6> 2024 Planetary Playing Cards. All rights reserved.</h6>
+  </footer>
 </body>
 </html>

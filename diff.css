@@ -1,0 +1,100 @@
+body {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: #f0f0f0; 
+}
+
+h6 {
+    margin-top: 10px; 
+}
+
+h1 {
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px 10px; 
+}
+
+.planet-card {
+    --planet-color: #b8b8b8; /* Default color for planet cards */
+    background: var(--planet-color);
+    padding: 10px 10px;
+}
+body {
+    margin: 10px;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0; 
+}
+
+h6 {
+    margin-top: 10px; 
+}
+
+h1 {
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px 10px; 
+}
+.sun {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-start: 2;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 3.2em #df6a47;
+    width: 6em;
+    height: 6em;
+    background: linear-gradient (to right,
+    #f5af19,
+    #f12711 )
+        }
+
+.planet {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.planet-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--planet-color);
+}
