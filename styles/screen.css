@@ -1,7 +1,6 @@
 :root {
     --planet-shadow: 0 4px 8px rgba(0, 0, 0, 0.311);
     --hover-color: #3938385d;
-
   }
   .planet-card {
     background-color:#0056782b;
@@ -18,7 +17,7 @@ body {
 }
 h1 {
     font-size: 2.5em;
-    color: #ff2a6d;
+    color: #ff2a6d; 
     text-shadow: 0 0 7px #fff, 0 0 15px #fff, 0 0 42px #ff2a6d, 0 0 82px #ff2a6d, 0 0 92px #ff2a6d, 0 0 102px #ff2a6d;
 }
 /* used this website to make the neon font header : https://css-tricks.com/how-to-create-neon-text-with-css/*/
